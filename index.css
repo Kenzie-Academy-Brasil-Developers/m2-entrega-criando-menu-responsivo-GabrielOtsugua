@@ -1,0 +1,142 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    border-bottom: 2px solid var(--color-gray-4);
+}
+
+h1 {
+    font-size: 20px;
+    color: var(--color-brand);
+}
+
+.btnAbrirCaixa {
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+.icone {
+    font-size: 5px;
+    line-height: 5px;
+    font-weight: bold;
+}
+
+.btnFecharCaixa {
+    color: var(--color-gray-3);
+    background-color: var(--color-gray-4);
+    padding: 3px 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+    display: none;
+}
+
+.header {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    margin-right: 30px;
+    font-size: 16px;
+}
+
+.header .all {
+    color: var(--color-gray-1);
+}
+
+.header h3 {
+    margin-right: 30px;
+    font-size: 14px;
+    color: var(--color-gray-2);
+    cursor: pointer;
+}
+
+.header div {
+    display: flex;
+    position: relative;
+}
+
+.header .search {
+    top: 11px;
+    left: 10px;
+}
+
+.header input {
+    margin-right: 20px;
+    width: 200px;
+}
+
+.header img {}
+
+.caixa {
+    display: none;
+    animation: animacaoAbrirCaixa 0.5s ease, animacaoFecharCaixa 0.5s ease;
+}
+
+li {
+    padding: 20px 10px;
+}
+
+li h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-gray-2);
+    cursor: pointer;
+}
+
+.all {
+    color: var(--color-gray-1);
+}
+
+.container-perfil {
+    padding: 20px 10px;
+    border-top: 2px solid var(--color-gray-4);
+    position: relative;
+}
+
+input {
+    width: 100%;
+    padding: 10px 10px 10px 33px;
+    border-radius: 5px;
+    background-color: var(--color-gray-4);
+    color: var(--color-gray-1);
+    border: transparent;
+}
+
+.search {
+    position: absolute;
+    left: 20px;   
+    top: 30px;
+}
+
+.perfil {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+
+    header {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+    }
+}
