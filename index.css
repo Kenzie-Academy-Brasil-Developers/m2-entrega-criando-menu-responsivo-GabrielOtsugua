@@ -77,8 +77,6 @@ h1 {
     width: 200px;
 }
 
-.header img {}
-
 .caixa {
     display: none;
     animation: animacaoAbrirCaixa 0.5s ease, animacaoFecharCaixa 0.5s ease;
